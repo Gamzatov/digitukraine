@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+
+<head>
+  <title>Digital Ukraine</title>
+  <meta name="viewport"
+    content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <link rel="icon" href="images/logo_white.png" type="image/png">
+  <!-- Stylesheets-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .ie-panel {
+      display: none;
+      background: #212121;
+      padding: 10px 0;
+      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
+      clear: both;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    html.ie-10 .ie-panel,
+    html.lt-ie-10 .ie-panel {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="preloader">
+    <div class="preloader-body">
+      <div class="cssload-container">
+        <span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+  <div class="page">
+    <!-- Page Header-->
+    <header class="section page-header">
+      <!-- RD Navbar-->
+      <div class="rd-navbar-wrap">
+        <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+          data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static"
+          data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static"
+          data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static"
+          data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px"
+          data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+          <div class="rd-navbar-main-outer">
+            <div class="rd-navbar-main">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!-- RD Navbar Toggle-->
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/logo.png" alt=""
+                      style="width: 80px;" /></a></div>
+              </div>
+              <div class="rd-navbar-main-element">
+                <div class="rd-navbar-nav-wrap">
+                  <!-- RD Navbar Nav-->
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#form">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Swiper-->
+    <section class="section swiper-container swiper-slider swiper-slider-classic" data-loop="true"
+      data-swiper='{"loop":true,"autoplay":{"delay":5000},"effect":"slide","simulateTouch":true,"direction":"vertical","nav":false}'>
+      <div class="swiper-wrapper text-center">
+        <div class="swiper-slide" data-slide-bg="images/carousel_one.webp">
+          <div class="swiper-slide-caption section-md">
+            <div class="container">
+              <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">Digital Ukraine</h1>
+              <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Doloribus ducimus laudantium alias autem voluptatem culpa dolorem
+                totam, est dicta incidunt sint soluta repudiandae deserunt molestiae, ratione fuga recusandae
+                distinctio! Accusamus!</p><a class="button button-primary button-ujarak" href="#form"
+                data-caption-animate="fadeInUp" data-caption-delay="200">Get in touch</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-slide-bg="images/carousel_two.jpg">
+          <div class="swiper-slide-caption section-md">
+            <div class="container">
+              <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">What we do</h1>
+              <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">Lorem ipsum dolor
+                sit amet consectetur, adipisicing elit. Ratione earum vero sed provident laudantium assumenda omnis
+                officia exercitationem magni atque. Quas modi cupiditate porro beatae itaque illo earum facilis qui.</p>
+              <a class="button button-primary button-ujarak" href="#form" data-caption-animate="fadeInUp"
+                data-caption-delay="200">Get in touch</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-slide-bg="images/carousel_three.jpg">
+          <div class="swiper-slide-caption section-md">
+            <div class="container">
+              <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">Join us </h1>
+              <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">Lorem ipsum dolor
+                sit amet consectetur, adipisicing elit. Ipsum ex accusamus obcaecati provident soluta et explicabo, est
+                fuga voluptatum incidunt natus sequi vero fugit temporibus quas, molestias quod atque culpa!
+              </p><a class="button button-primary button-ujarak" href="#form" data-caption-animate="fadeInUp"
+                data-caption-delay="200">Get in touch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Swiper Pagination-->
+      <div class="swiper-pagination__module">
+        <div class="swiper-pagination__fraction"><span class="swiper-pagination__fraction-index">00</span><span
+            class="swiper-pagination__fraction-divider">/</span><span
+            class="swiper-pagination__fraction-count">00</span></div>
+        <div class="swiper-pagination__divider"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <style>
+      .swiper-slide:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(255, 255, 255, .8);
+      }
+    </style>
+    <!-- See all services-->
+    <section id="services" class="section section-sm section-first bg-default text-center">
+      <div class="container">
+        <div class="row row-30 justify-content-center">
+          <div class="col-md-7 col-lg-5 col-xl-6 text-lg-left wow fadeInUp services_bg">
+            <!-- <img src="images/index-1-415x592.jpg" alt=""
+              width="415" height="592" /> -->
+          </div>
+          <style>
+            .services_bg{
+              background: url('./images/services.webp');
+              background-size: cover;
+              background-position: 50%;
+            }
+          </style>
+          <div class="col-lg-7 col-xl-6">
+            <div class="row row-30">
+              <div class="col-sm-6 wow fadeInRight">
+                <article class="box-icon-modern box-icon-modern-custom">
+                  <div>
+                    <h3 class="box-icon-modern-big-title">Our services</h3>
+                    <div class="box-icon-modern-decor"></div>
+                    <!-- <a class="button button-primary button-ujarak"
+                      href="services.html">All services</a> -->
+                  </div>
+                </article>
+              </div>
+              <div class="col-sm-6 wow fadeInRight" data-wow-delay=".1s">
+                <article class="box-icon-modern box-icon-modern-2">
+                  <div class="box-icon-modern-icon linearicons-phone-in-out"></div>
+                  <h5 class="box-icon-modern-title"><a href="single-service.html">SERVICES</a></h5>
+                  <div class="box-icon-modern-decor"></div>
+                  <p class="box-icon-modern-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                    sapiente provident fugiat similique illo veniam perspiciatis enim. Voluptatum illum quo quae ab,
+                    impedit tenetur blanditiis ipsa quam recusandae saepe nam!!
+                  </p>
+                </article>
+              </div>
+              <div class="col-sm-6 wow fadeInRight" data-wow-delay=".2s">
+                <article class="box-icon-modern box-icon-modern-2">
+                  <div class="box-icon-modern-icon linearicons-headset"></div>
+                  <h5 class="box-icon-modern-title"><a href="single-service.html">SERVICES</a></h5>
+                  <div class="box-icon-modern-decor"></div>
+                  <p class="box-icon-modern-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Exercitationem, culpa iusto! Cumque impedit quos amet, cum expedita culpa incidunt illum obcaecati
+                    facere enim ratione et fugit beatae sed blanditiis voluptate.</p>
+                </article>
+              </div>
+              <div class="col-sm-6 wow fadeInRight" data-wow-delay=".3s">
+                <article class="box-icon-modern box-icon-modern-2">
+                  <div class="box-icon-modern-icon linearicons-outbox"></div>
+                  <h5 class="box-icon-modern-title"><a href="single-service.html">SERVICES</a></h5>
+                  <div class="box-icon-modern-decor"></div>
+                  <p class="box-icon-modern-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ipsam
+                    eaque dolor sapiente earum alias aperiam beatae sequi incidunt odio aliquam, animi, quidem
+                    voluptatem consectetur? Cupiditate qui fuga voluptatum odit.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Years of experience-->
+    <section id="about" class="section section-sm bg-default">
+      <div class="container">
+        <div class="row row-30 row-xl-24 justify-content-center align-items-center align-items-lg-start text-left">
+          <div class="col-md-6 col-lg-5 col-xl-5 text-center"><a class="text-img" href="#form">
+              <div id="particles-js"></div><span class="counter">10</span>
+            </a></div>
+          <div class="col-sm-8 col-md-6 col-lg-5 col-xl-3">
+            <div class="text-width-extra-small offset-top-lg-24 wow fadeInUp">
+              <h3 class="title-decoration-lines-left">Years of Experience</h3>
+              <p class="text-gray-500">DigitalUkraine text about us
+              </p><a class="button button-secondary button-pipaluk" href="#form">Get in touch</a>
+            </div>
+          </div>
+          <div class="col-sm-10 col-md-8 col-lg-6 col-xl-4 wow fadeInRight" data-wow-delay=".1s">
+            <div class="row justify-content-center border-2-column offset-top-xl-26">
+              <div class="col-9 col-sm-6">
+                <div class="counter-amy">
+                  <div class="counter-amy-number"><span class="counter">2</span><span class="symbol">k</span>
+                  </div>
+                  <h6 class="counter-amy-title">сума залучених інвестицій</h6>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6">
+                <div class="counter-amy">
+                  <div class="counter-amy-number"><span class="counter">40</span>
+                  </div>
+                  <h6 class="counter-amy-title">грантові кошти</h6>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6">
+                <div class="counter-amy">
+                  <div class="counter-amy-number"><span class="counter">12</span>
+                  </div>
+                  <h6 class="counter-amy-title">інвесторів долучилися</h6>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6">
+                <div class="counter-amy">
+                  <div class="counter-amy-number"><span class="counter">160</span>
+                  </div>
+                  <h6 class="counter-amy-title">робочих місць</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-12 align-self-center">
+            <h1>
+              Partners
+            </h1>
+            <div class="row row-30 justify-content-center">
+              <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft"><a class="clients-classic" href="#">
+                  <!-- <img src="images/clients-9-270x117.png" alt="" width="270" height="117" /> -->
+                  LOGO
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".1s">
+                <a class="clients-classic" href="#">
+                  <!-- <img src="images/clients-10-270x117.png" alt="" width="270" height="117" /> -->
+                  LOGO
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".2s">
+                <a class="clients-classic" href="#">
+                  <!-- <img src="images/clients-3-270x117.png" alt="" width="270" height="117" /> -->
+                  LOGO
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".3s"><a
+                  class="clients-classic" href="#">
+                  <!-- <img src="images/clients-11-270x117.png" alt="" width="270" height="117" /> -->
+                  LOGO
+                </a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- You dream — we embody-->
+    <section class="section section-sm bg-default text-md-left">
+      <div class="container">
+        <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
+          <div class="col-lg-6 col-xl-5 wow fadeInLeft">
+            <h2>Чому варто інвестувати у DigitalUkraine</h2>
+            <!-- Bootstrap tabs-->
+            <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big text-center text-md-left" id="tabs-6">
+              <!-- Nav tabs-->
+              <ul class="nav nav-tabs">
+                <li class="nav-item" role="presentation"><a class="nav-link nav-link-big active" href="#tabs-6-1"
+                    data-toggle="tab">01</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-2"
+                    data-toggle="tab">02</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-3"
+                    data-toggle="tab">03</a></li>
+                <!-- <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-4"
+                    data-toggle="tab">04</a></li> -->
+              </ul>
+              <!-- Tab panes-->
+              <div class="tab-content">
+                <div class="tab-pane fade show active" id="tabs-6-1">
+                  <h5 class="font-weight-normal">Стань частиною змін</h5>
+                  <p>Промприлад це ідея перезавантаження, місце для самореалізації людей та причина, щоб залишатися в
+                    місті. Успішний проект створить модель для схожих територій</p>
+                  <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#form">Get
+                      in touch</a>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="tabs-6-2">
+                  <h5 class="font-weight-normal">Отримуй дивіденди</h5>
+                  <p>Вкладаючи гроші, ви маєте право на дивіденди. Ваша частка в бізнесі буде зростати у вартості
+                    протягом реконструкцій.</p>
+                  <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#form">Get
+                      in touch</a>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="tabs-6-3">
+                  <h5 class="font-weight-normal">Знайди однодумців</h5>
+                  <p>Проект об’єднує спільноту людей зі схожими цінностями, стимулює разом знаходити рішення проблем,
+                    надає доступ до талантів та унікальної експертизи.</p>
+                  <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#form">Get
+                      in touch</a>
+                  </div>
+                </div>
+                <!-- <div class="tab-pane fade" id="tabs-6-4">
+                  <h5 class="font-weight-normal">GREAT USABILITY</h5>
+                  <p>All our apps are designed to have great usability in order to easily operate our applications. That
+                    is why our software has high ratings and lots of awards.</p>
+                  <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#form">Get
+                      in touch</a>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center wow fadeInUp" data-wow-delay=".1s">
+            <div class="row row-30 align-items-center justify-content-center justify-content-xl-between">
+              <div class="co">
+                <img src="images/why.png" alt="" style="width: 100%;" />
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What people Say-->
+    <section id="testimonials" class="section section-sm section-bottom-70 section-fluid bg-default">
+      <div class="container-fluid">
+        <h2>What people Say</h2>
+        <div class="row row-50 row-sm">
+          <div class="col-md-6 col-xl-4 wow fadeInRight">
+            <!-- Quote Modern-->
+            <article class="quote-modern quote-modern-custom">
+              <div class="unit unit-spacing-md align-items-center">
+                <div class="unit-left"><a class="quote-modern-figure" href="#"><img class="img-circles"
+                      src="images/user-11-75x75.jpg" alt="" width="75" height="75" /></a></div>
+                <div class="unit-body">
+                  <h4 class="quote-modern-cite"><a href="#">NAME NAME</a></h4>
+                </div>
+              </div>
+              <div class="quote-modern-text">
+                <p class="q">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis suscipit quidem tempore
+                  odit autem adipisci, et delectus? Aspernatur laborum, libero laboriosam commodi recusandae amet quae
+                  minima sapiente est minus natus.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 wow fadeInRight" data-wow-delay=".1s">
+            <!-- Quote Modern-->
+            <article class="quote-modern quote-modern-custom">
+              <div class="unit unit-spacing-md align-items-center">
+                <div class="unit-left"><a class="quote-modern-figure" href="#"><img class="img-circles"
+                      src="images/user-12-75x75.jpg" alt="" width="75" height="75" /></a></div>
+                <div class="unit-body">
+                  <h4 class="quote-modern-cite"><a href="#">NAME NAME</a></h4>
+                </div>
+              </div>
+              <div class="quote-modern-text">
+                <p class="q">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolores velit
+                  reprehenderit blanditiis ut nemo quod deserunt perspiciatis, at commodi, officiis quas id placeat
+                  magni a quaerat fugit nisi quis.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 wow fadeInRight" data-wow-delay=".2s">
+            <!-- Quote Modern-->
+            <article class="quote-modern quote-modern-custom">
+              <div class="unit unit-spacing-md align-items-center">
+                <div class="unit-left"><a class="quote-modern-figure" href="#"><img class="img-circles"
+                      src="images/user-20-75x75.jpg" alt="" width="75" height="75" /></a></div>
+                <div class="unit-body">
+                  <h4 class="quote-modern-cite"><a href="#">NAME NAME</a></h4>
+                </div>
+              </div>
+              <div class="quote-modern-text">
+                <p class="q">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta nemo aut temporibus quia
+                  esse in, quos quidem aspernatur delectus cum optio, id labore iusto fuga nesciunt assumenda enim,
+                  facilis beatae.q</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page Footer-->
+    <footer class="section section-fluid footer-classic">
+      <div class="container-fluid bg-gray-15">
+        <div class="row justify-content-center row-30">
+          <div class="col-md-10 col-lg-12 col-xl-4 wow fadeInRight">
+            <div class="box-footer box-footer-small">
+              <div class="footer-brand"><a href="index.html"><img src="images/logo_white.png" alt="" width="191"
+                    height="52" /></a></div>
+              <p class="text-width-medium">About company text</p>
+              <div class="contact-classic">
+                <div class="contact-classic-item">
+                  <div class="unit unit-spacing-md align-items-center">
+                    <div class="unit-left">
+                      <h6 class="contact-classic-title">Address</h6>
+                    </div>
+                    <div class="unit-body contact-classic-link"><a href="#">Kyiv Ukraine</a></div>
+                  </div>
+                </div>
+                <div class="contact-classic-item">
+                  <div class="unit unit-spacing-md align-items-center">
+                    <div class="unit-left">
+                      <h6 class="contact-classic-title">Phones</h6>
+                    </div>
+                    <div class="unit-body contact-classic-link"><a href="tel:#">+9379992</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact-classic-item">
+                  <div class="unit unit-spacing-md align-items-center">
+                    <div class="unit-left">
+                      <h6 class="contact-classic-title">E-mails</h6>
+                    </div>
+                    <div class="unit-body contact-classic-link"><a href="mailto:#">mail@gmail.com.org</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="form" class="col-md-10 col-lg-6 col-xl-4 wow fadeInRight" data-wow-delay=".1s">
+            <div class="box-footer">
+              <h3 class="font-weight-normal">Contact Us</h3>
+              <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact"
+                method="post" action="bat/rd-mailform.php">
+                <div class="form-wrap">
+                  <input class="form-input" id="contact-name-6" type="text" name="name" data-constraints="@Required" />
+                  <label class="form-label" for="contact-name-6">Name</label>
+                </div>
+                <div class="form-wrap">
+                  <input class="form-input" id="contact-email-6" type="email" name="email"
+                    data-constraints="@Email @Required" />
+                  <label class="form-label" for="contact-email-6">E-mail</label>
+                </div>
+                <div class="form-wrap">
+                  <label class="form-label" for="contact-message-6">Message</label>
+                  <textarea class="form-input" id="contact-message-6" name="message"
+                    data-constraints="@Required"></textarea>
+                </div>
+                <button class="button button-block button-primary" type="submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom-panel wow fadeInUp">
+        <!-- Rights-->
+        <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span> <span>DigitalUkraine</span>. All
+          rights reserved. <a href="#"> Privacy Policy.</a>
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Javascript-->
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    const anchors = document.querySelectorAll('.rd-nav-link')
+
+    for (let anchor of anchors) {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault()
+
+        const blockID = anchor.getAttribute('href').substr(1)
+
+        document.getElementById(blockID).scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        })
+      })
+    }
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
